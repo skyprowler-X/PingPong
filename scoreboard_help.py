@@ -22,5 +22,5 @@ class Score(Turtle):
 
     def game_over(self):
         self.goto(0, 0)
-        self.write(f"GAME OVER" , align="center", font=('Courier', 50, 'normal'))
+        self.write("GAME OVER" , align="center", font=('Courier', 50, 'normal'))
         
