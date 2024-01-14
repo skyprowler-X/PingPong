@@ -6,7 +6,7 @@ from scoreboard_help import Score
 from middle_net_help import Net
 
 POSITION_SCORE_PLAYERS = ((-50, 200), (50, 200))
-START = True
+start = True
 
 screen = t.Screen()
 screen.tracer(0)
@@ -31,7 +31,7 @@ screen.onkeypress(computer_2.pipe_player_down, "s")
 
 
 
-while START:   
+while start:   
     screen.update()
     time.sleep(ball_obj.move_speed)
     ball_obj.move()
